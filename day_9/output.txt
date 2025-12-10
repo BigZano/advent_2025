@@ -1,0 +1,23 @@
+Loaded 496 red tiles
+Building path...
+Path has 590444 tiles
+
+Generating candidates...
+Generated 122264 candidates
+
+Checking candidates...
+  Checked 100 candidates (idx 99/122264), max: 0, cache: 137
+  Checked 200 candidates (idx 199/122264), max: 0, cache: 208
+  Checked 300 candidates (idx 299/122264), max: 0, cache: 261
+  Checked 400 candidates (idx 399/122264), max: 0, cache: 315
+  Checked 500 candidates (idx 499/122264), max: 0, cache: 369
+  Checked 600 candidates (idx 599/122264), max: 0, cache: 404490
+  Checked 700 candidates (idx 699/122264), max: 0, cache: 770432
+  Checked 800 candidates (idx 799/122264), max: 0, cache: 964966
+  Checked 900 candidates (idx 899/122264), max: 0, cache: 1234775
+  Checked 1000 candidates (idx 999/122264), max: 0, cache: 1332754
+  Checked 1100 candidates (idx 1099/122264), max: 0, cache: 1401835
+  Checked 1200 candidates (idx 1199/122264), max: 0, cache: 1568661
+  Checked 1300 candidates (idx 1299/122264), max: 0, cache: 1568701
+  Checked 1400 candidates (idx 1399/122264), max: 0, cache: 1775592
+  Checked 1500 candidates (idx 1499/122264), max: 0, cache: 1775635

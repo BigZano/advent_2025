@@ -1,15 +1,3 @@
-"""
-input describes position of junction boxes, one per line given as x, y and z coordinates. 
-
-Connect pairs that are as close as possible based on straight line distance. 
-
-once connected, a pair forms a complete circuit. After connected, there is a circuit formed between the two, with the other boxes on their own circuits.
-
-If a box is already part of a circuit and meets the critera for connection, the box is added to the circuit. 
-
-connect all the circuits, multiply the 3 largest circuit sizes together and return that value
-"""
-
 from typing import List
 
 def main(path: str = "day_8/day_8_input.txt", k: int = 1000) -> int:
@@ -42,6 +30,7 @@ def main(path: str = "day_8/day_8_input.txt", k: int = 1000) -> int:
                 xj, yj, zj = points[j]
                 d = (xi - xj) ** 2 + (yi - yj) ** 2 + (zi - zj) ** 2
                 yield (d, i, j)
+
 
     smallest = heapq.nsmallest(k, pair_dist_iter(), key=lambda x: x[0])
 

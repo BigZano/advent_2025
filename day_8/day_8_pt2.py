@@ -51,7 +51,11 @@ def find_last_connection(points: List[Tuple[int, int, int]]) -> int:
 
 def main(path: str = "day_8/day_8_input.txt") -> int:
     with open(path, 'r') as f:
-        points = [tuple(map(int, line.strip().split(','))) for line in f if line.strip()]
+        points = []
+        for line in f:
+            if line.strip():
+                parts = list(map(int, line.strip().split(',')))
+                points.append((parts[0], parts[1], parts[2]))
     return find_last_connection(points)
 
 
