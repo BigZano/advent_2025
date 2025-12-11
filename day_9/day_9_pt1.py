@@ -1,26 +1,3 @@
-"""
-Make the largest red rectangle on the floor you can. Given a list of 2D coordinate points on the floor, each represents a red square. Find the area of the largest rectangle that can be formed by connecting the squares. 
-
-For example:
-
-7,1
-11,1
-11,7
-9,7
-9,5
-2,5
-2,3
-7,3
-
-Between 7,1 and 11, 7, you can form a rectangle with an area of 35. 
-largest is between 2,5 and 11, 1 with an area of 50. 
-Grid is 0-indexed, coordinates are integers. 
-
-
-"""
-
-
-
 from importlib.resources import path
 from unittest import result
 

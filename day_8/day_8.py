@@ -1,11 +1,7 @@
 from typing import List
 
 def main(path: str = "day_8/day_8_input.txt", k: int = 1000) -> int:
-    """
-    Connect the `k` pairs of junction boxes with the smallest straight-line distances (squared distance used),
-    applying them in ascending order. Each pair is processed even if it doesn't change component structure.
-    After processing the first `k` pairs, return the product of the sizes of the three largest connected components.
-    """
+    """Process 3D points from file and find product of sizes of three largest groups"""
     from itertools import combinations
     import heapq
     from collections import Counter
